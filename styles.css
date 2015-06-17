@@ -83,7 +83,7 @@
 
 #logo {
     display: inline-block;
-    flex-grow: 1;
+    flex-grow: 6;
     position: relative;
     margin-top: 25px;
 }
