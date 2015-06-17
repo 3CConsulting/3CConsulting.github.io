@@ -13,7 +13,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    min-width: 800px;
+    height: 120px;
     margin:0;
 }
 
@@ -25,7 +26,6 @@
     background: #ffffff;
     padding: 100px;
     margin-top: 10px;
-    position: relative;
 }
 
 #footer{
@@ -37,10 +37,26 @@
     padding-bottom: 50px;
 }
 
-#banner{
-    height: 150px;
-    background: #808080;
+.banner{
+    height: 70px;
+    padding-top: 10px;
+    font-size: 40px;
+    text-align:center;
     width: 100%;
+}
+
+#banner1{
+    background: #808080;
+}
+
+#banner2{
+    background: #a3a3a3;
+}
+#banner3{
+    background: #c2c2c2;
+}
+#banner4{
+    background: #e9e9e9;
 }
 
 .section{
