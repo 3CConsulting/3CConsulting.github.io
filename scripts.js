@@ -1,7 +1,7 @@
 function highlight(button) {
-    button.style.background = "#d7d7d7";
+    button.style.background = "#30addf";
 }
 
 function unhighlight(button) {
-    button.style.background = "#ffffff";
+    button.style.background = "#1a1919";
 }
