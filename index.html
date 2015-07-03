@@ -16,24 +16,24 @@
 
         <div id="header_content">
 
-            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)">
-                <a href="">About Us</a>
+            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)" onclick="scrollAdjust('about')">
+                <a>About Us</a>
             </div>
 
-            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)">
-                <a href="">Our Values</a>
+            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)" onclick="scrollAdjust('values')">
+                <a>Our Values</a>
             </div>
 
-            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)">
-                <a href="">Our Services</a>
+            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)" onclick="scrollAdjust('services')">
+                Our Services
             </div>
 
-            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)">
-                <a href="">Our Team</a>
+            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)" onclick="scrollAdjust('team')">
+                Our Team
             </div>
 
-            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)">
-                <a href="">Contact</a>
+            <div class="nav_button" onmouseover="highlight(this)" onmouseout="unhighlight(this)" onclick="scrollAdjust('contact')">
+                Contact
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
 
     <div id="content">
 
-        <div class="section">
+        <div class="section" id="about">
             <div class="section_title">About Us</div>
             <p>
                 3C Consulting is a student-run consultancy that works with local private and public businesses in the National Capital Region.
@@ -55,7 +55,9 @@
             </p>
         </div>
 
-        <div class="section">
+        <hr />
+
+        <div class="section" id="values">
             <div class="section_title">Our Values</div>
             <p>
                 <b>Competence</b>: 3C Consultants have many industry experiences in the sector of IT, finance, operations and marketing. See individual profiles for detailed descriptions.
@@ -68,7 +70,9 @@
             </p>
         </div>
 
-        <div class="section">
+        <hr />
+
+        <div class="section" id="services">
             <div class="section_title">Our Services</div>
             <p>
                 <b>Marketing</b>: - Promotional Material - Market Research – Brand Communication
@@ -81,7 +85,9 @@
             </p>
         </div>
 
-        <div class="section">
+        <hr />
+
+        <div class="section" id="team">
             <div class="section_title">Our Team</div>
             <div class="bio_section">
                 <img class="wrap_img" src="images/Diyang.jpg" height="200" />
@@ -136,7 +142,9 @@
             </div>
         </div>
 
-        <div class="section">
+        <hr />
+
+        <div class="section" id="contact">
             <div class="section_title">Contact Us</div>
             <p>
                 Email: info@3c-consulting.ca
@@ -148,19 +156,6 @@
         <div id="copyright">
             © 2015 3C Consulting All Rights Reserved
         </div>
-        <section id="social">
-            Follow Us
-            <ul id='services'>
-
-                <li>
-                    <div class='entypo-facebook'></div>
-                </li>
-
-                <li>
-                    <div class='entypo-linkedin'></div>
-                </li>
-            </ul>
-        </section>
     </footer>
 </body>
 </html>

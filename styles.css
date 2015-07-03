@@ -1,8 +1,4 @@
-﻿@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
-@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-
-body {
+﻿body {
     background: #1a1919;
     font-family: 'Open Sans', sans-serif;
     padding: 0;
@@ -48,9 +44,6 @@ body {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
 }
 
 .banner {
@@ -79,6 +72,7 @@ body {
 .section {
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
     max-width: 800px;
 }
 
@@ -97,8 +91,10 @@ body {
 }
 
 .nav_button {
+    color: white;
     padding: 20px 10px 20px 10px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .section_title {
@@ -110,68 +106,5 @@ body {
     margin: 12px;
 }
 
-a:link {
-    text-decoration: none;
-}
 
-a {
-    color: white;
-}
 
-    a:active {
-        color: white;
-    }
-
-[class*="entypo-"]:before {
-    font-family: 'entypo', sans-serif;
-}
-
-#social {
-    height: 80px;
-    width: 80px;
-    flex-grow: 1;
-}
-
-#copyright {
-    flex-grow: 10;
-    width: 200px;
-}
-
-section #services {
-    text-align: center;
-    display: block;
-}
-
-#social ul {
-    padding: 0;
-}
-
-section #services li {
-    width: 32px;
-    height: 32px;
-    display: inline-block;
-    list-style: none;
-}
-
-    section #services li div {
-        width: 32px;
-        height: 32px;
-        color: #ffffff;
-        font-size: 10pt;
-        text-align: center;
-        line-height: 32px;
-        background-color: #1a1919;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-        section #services li div:hover {
-            -moz-transform: rotate(360deg);
-            -ms-transform: rotate(360deg);
-            -o-transform: rotate(360deg);
-            -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-            border-radius: 100px;
-        }
