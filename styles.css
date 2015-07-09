@@ -31,7 +31,8 @@
 }
 
 #about {
-    margin: 0px auto;
+    background: #ffffff;
+    padding: 50px 100px 50px 100px;
 }
 
 #content {
