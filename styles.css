@@ -30,6 +30,11 @@
     flex-grow: 1;
 }
 
+#about {
+    background: #ffffff;
+    padding: 50px 100px 50px 100px;
+}
+
 #content {
     background: #ffffff;
     padding: 50px 100px 50px 100px;
@@ -67,11 +72,6 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-#about {
-    margin: 0 auto;
-    max-width: 800px;
 }
 
 .section {
