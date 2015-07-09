@@ -69,6 +69,11 @@
     align-items: stretch;
 }
 
+#about {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 .section {
     margin: 0 auto;
     margin-top: 50px;
