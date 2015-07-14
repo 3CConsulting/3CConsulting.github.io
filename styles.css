@@ -49,7 +49,7 @@
 .banner {
     height: 110px;
     padding-top: 45px;
-    font-size: 40px;
+    font-size: 60px;
     color: #30addf;
     background-color: rgba(0,0,0,0.5);
     text-align: center;
@@ -63,6 +63,26 @@
     background-image: url("images/Ottawa.jpg");
     background-position-y: center;
     background-size: cover;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.servicebanner {
+    height: 110px;
+    padding-top: 0px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    flex-grow: 1;
+    max-width: 800px;
+}
+
+#servicebanner {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
     display: inline-flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -113,5 +133,16 @@
     margin: 12px;
 }
 
+table {
+text-align:center;
+padding-top: 15px;
+table-layout: fixed;
+width: 266px;
+}
+
+
+.center_img {
+    float: center;
+}
 
 
