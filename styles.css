@@ -69,26 +69,6 @@
     align-items: stretch;
 }
 
-.servicebanner {
-    height: 110px;
-    padding-top: 0px;
-    font-size: 20px;
-    color: #000000;
-    text-align: center;
-    flex-grow: 1;
-    max-width: 800px;
-}
-
-#servicebanner {
-    width: 100%;
-    height: 500px;
-    margin-top: 70px;
-    display: inline-flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    align-items: stretch;
-}
-
 #about {
     margin: 0 auto;
     margin-top: 0px;
@@ -137,7 +117,7 @@ table {
 text-align:center;
 padding-top: 15px;
 table-layout: fixed;
-width: 266px;
+width: 800px;
 }
 
 
